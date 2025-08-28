@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro ROP</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img id="logo-pmse" src="assets/logo-pmse.PNG" alt="Logo PMSE">
+
+        <h1>Cadastro ROP</h1>
+
+        <form id="form-etapa1">
+            <div class="row">
+                <div class="form-group">
+                    <label for="tipo_do_rop">TIPO DO ROP:</label>
+                    <select id="tipo_do_rop" name="tipo_do_rop">
+                        <option value="contra_pessoa_vida">Contra a pessoa e a vida</option>
+                        <option value="transito">Trânsito</option>
+                        <option value="costumes">Costumes</option>
+                        <option value="auxilio_publico">Auxilio ao público</option>
+                        <option value="administracao_publica">Administração pública</option>
+                        <option value="entorpecentes">Entorpecentes</option>
+                        <option value="presos">Presos</option>
+
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <select id="cidade" name="cidade">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bairro">Bairro:</label>
+                    <select id="bairro" name="bairro">
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="num_atendimento">Nº de atendimento:</label>
+                    <input type="text" id="num_atendimento" name="num_atendimento" placeholder="Ex.:2024-00123456">
+                </div>
+                <div class="form-group">
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" name="destino" placeholder="Ex.:Comando Geral da PM de Sergipe">
+                </div>
+                <div class="form-group">
+                    <label for="logradouro">Logradouro do fato:</label>
+                    <input type="text" id="logradouro" name="logradouro" placeholder="Ex.:Rua Niceu Dantas">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="numero">Número:</label>
+                    <input type="text" id="numero" name="numero" placeholder="Ex.:100">
+                </div>
+                <div class="form-group">
+                    <label for="ponto_referencia">Ponto de referência:</label>
+                    <input type="text" id="ponto_referencia" name="ponto_referencia" placeholder="Ex.: Ao lado do Residencial Costa do Atlântico">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data">
+                </div>
+                <div class="form-group">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora">
+                </div>
+            </div>
+
+            <div class="toggle-group">
+                <input type="checkbox" class="toggle elemento-btn" id="dinheiro">
+                <label for="dinheiro" class="toggle-label">Dinheiro</label>
+
+                <input type="checkbox" class="toggle elemento-btn" id="drogas">
+                <label for="drogas" class="toggle-label">Drogas</label>
+
+                <input type="checkbox" class="toggle elemento-btn" id="armas">
+                <label for="armas" class="toggle-label">Armas</label>
+
+                <input type="checkbox" class="toggle elemento-btn" id="veiculo">
+                <label for="veiculo" class="toggle-label">Veículo</label>
+
+                <input type="checkbox" class="toggle elemento-btn" id="objeto">
+                <label for="objeto" class="toggle-label">Objeto</label>
+
+                <input type="checkbox" class="toggle elemento-btn" id="municao">
+                <label for="municao" class="toggle-label">Munição</label>
+                
+                <input type="checkbox" class="toggle elemento-btn" id="individuo">
+                <label for="individuo" class="toggle-label">Indivíduo</label>
+            </div>
+
+            <div class="form-actions">
+                <button id="proximo" type="button" disabled>Próximo</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="assets/etapa1.js"></script>
+</body>
+
+</html>
