@@ -26,7 +26,3 @@ O projeto contempla tanto a **versão web** quanto uma futura versão **mobile**
 1. **Versão Web:** abrir `index.html` no navegador.  
 2. **Versão Mobile:** futura implementação em Flutter, com acesso offline.  
 
----
-
-## 💡 Observações
-Este projeto é voltado para fins acadêmicos, mas já demonstra **potencial para protótipos reais** que podem otimizar o trabalho da Polícia Militar de Sergipe.
