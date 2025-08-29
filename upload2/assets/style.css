@@ -10,15 +10,6 @@ body {
     padding: 20px;
 }
 
-#logo-pmse {
-    position: absolute;
-    top: 25px;
-    right: 150px;
-    width: 90px;
-    height: 90px;
-    z-index: 10;
-}
-
 .container {
     background: #fff;
     padding: 20px;
@@ -27,6 +18,16 @@ body {
     margin: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border: 2px solid black;
+    position: relative;
+}
+
+#logo-pmse {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    width: 90px;
+    height: 90px;
+    z-index: 10;
 }
 
 
