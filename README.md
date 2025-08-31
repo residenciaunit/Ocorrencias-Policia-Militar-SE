@@ -1,28 +1,58 @@
-# 🚓 Ocorrências da Polícia Militar de Sergipe
+# 🚓 Sistema de Registro de Ocorrências da PMSE
 
-## 📄 Descrição
-Este é um projeto acadêmico desenvolvido para a faculdade, com o objetivo de **facilitar o registro de ocorrências da Polícia Militar de Sergipe**. A ideia é criar um sistema **dinâmico, intuitivo e prático**, ajudando os policiais a registrar ocorrências sem processos cansativos ou burocráticos.
+## 📜 Sobre o Projeto
+Este é um projeto acadêmico desenvolvido em parceria com o **Porto Digital Rise Up 2025.2** para a matéria **Residência de Software I**. O principal objetivo é simplificar e agilizar o processo de registro de ocorrências para os policiais militares de Sergipe.
 
-O projeto contempla tanto a **versão web** quanto uma futura versão **mobile**, permitindo acesso offline e maior flexibilidade para os usuários.
-
----
-
-## 🛠 Tecnologias Utilizadas
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+Desenvolvemos um sistema **dinâmico, prático e intuitivo**, focado em tornar o registro de dados menos burocrático e cansativo. O projeto inclui tanto uma **versão web** quanto uma **versão mobile**, garantindo flexibilidade e acesso offline para os usuários em campo.
 
 ---
 
-## 🎯 Objetivo
-- Criar um sistema de registro de ocorrências mais **rápido e eficiente**.  
-- Tornar a experiência do usuário **prática e menos cansativa**.  
-- Disponibilizar o app para **acesso offline** no mobile, garantindo que os dados possam ser registrados mesmo sem internet.
+## 🌟 Funcionalidades
+- **Registro Rápido e Eficiente:** Interface otimizada para o registro de ocorrências em menos tempo.
+- **Experiência de Usuário Agradável:** Fluxo de trabalho simplificado e intuitivo.
+- **Acesso Offline (Mobile):** Capacidade de registrar dados mesmo sem conexão com a internet.
+- **Multiplataforma:** Acesso via web e mobile, com dados sincronizados.
 
 ---
 
-## 🚀 Como Usar
-1. **Versão Web:** abrir `index.html` no navegador.  
-2. **Versão Mobile:** futura implementação em Flutter, com acesso offline.  
+## 💻 Tecnologias
+As tecnologias usadas para construir este projeto foram escolhidas para garantir uma solução robusta e moderna.
 
+| Tecnologia | Descrição |
+| :--- | :--- |
+| ![HTML5](https://skillicons.dev/icons?i=html) | Estrutura da aplicação web. |
+| ![CSS3](https://skillicons.dev/icons?i=css) | Estilização e design visual da interface. |
+| ![JavaScript](https://skillicons.dev/icons?i=js) | Lógica e interatividade no lado do cliente. |
+| ![Flutter](https://skillicons.dev/icons?i=flutter) | Framework para o desenvolvimento do aplicativo mobile. |
+| ![Dart](https://skillicons.dev/icons?i=dart) | Linguagem de programação para o desenvolvimento do app mobile. |
+
+> **Status:** Em Desenvolvimento
+
+---
+
+## 🚀 Como Executar o Projeto
+Para começar, você pode rodar a versão web ou a versão mobile.
+
+### Versão Web
+Basta abrir o arquivo `index.html` em qualquer navegador. Não é necessário nenhum servidor local.
+
+### Versão Mobile
+O aplicativo mobile está em desenvolvimento com **Flutter** e pode ser testado localmente. Siga os passos abaixo para configurar e rodar o projeto.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+
+2.  **Acesse a pasta do projeto mobile:**
+    ```bash
+    cd nome-da-pasta-do-seu-projeto/appmobileocorrencias/
+    ```
+
+3.  **Instale as dependências e rode a aplicação:**
+    ```bash
+    flutter pub get
+    flutter run
+    ```
+
+> O comando `flutter run` vai automaticamente procurar e rodar o app em um emulador ou dispositivo físico que esteja conectado. Se precisar listar ou iniciar um emulador específico, você pode usar os comandos `flutter emulators` e `flutter emulators --launch <nome_do_emulador>`.
